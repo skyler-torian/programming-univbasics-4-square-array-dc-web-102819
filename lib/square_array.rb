@@ -5,11 +5,12 @@
 #  puts count.index(0)**2
 #  count = count +1
 #end
-
-x = 0
-while x < 3
-puts x = x*x
-end
+array = [1,2,3]
+i = 0
+while i < 3
+array[i] = array[i]**2
+puts array
+array += 1
 
 def square_array(array)
   new_array = []
