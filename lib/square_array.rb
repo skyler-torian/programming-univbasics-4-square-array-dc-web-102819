@@ -11,7 +11,7 @@ while i < 3
 array[i] = array[i]**2
 puts array
 array += 1
-
+end
 def square_array(array)
   new_array = []
   array.each{|a| new_array.push(a*a)}
