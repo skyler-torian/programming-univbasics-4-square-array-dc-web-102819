@@ -1,7 +1,7 @@
-nums = [1,2,3]
-def square_num(nums)
-i = 0 
-while i <3
-puts nums[i]*nums[i]
-p(i = i + 1)
+def square_array(numbers)
+  counter = 0
+numbers = [1,2,3]
+while counter < numbers.length do
+  puts numbers[counter*counter]
+counter += 1
 end
